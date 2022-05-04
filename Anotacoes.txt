@@ -1,0 +1,53 @@
+Isntalar VsCode
+
+Plugins:
+1- Live Server
+2- Auto Rename Tag
+3- Dracula Official
+
+Macetes:
+1- Alt + Shift + Seta para baixo -> clonagem
+2- div.'nome da class' -> Facilitar criação de div
+
+
+Links:
+themoviedb.org -> site imagens de filmes
+fontawesome.com -> site de ícones
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
