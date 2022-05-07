@@ -15,6 +15,11 @@ Links:
 2- fontawesome.com -> site de ícones
 3- owlcarousel2.github.io/OwlCarousel2 -> Plugin Carrocel na página
 
+
+TAGs HTML
+1- https://www.youtube.com/watch?v=gyGWCg21crU -> Todas as tags
+2- https://www.youtube.com/watch?v=CEjaKXYeaJU -> Linkar seções
+
 Contatos:
 www.linkedin.com/in/felipe-aguiar-047
 

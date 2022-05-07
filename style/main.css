@@ -98,11 +98,63 @@ header nav a:hover {
 }
 
 .box-filme {
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     display: block;
 }
 
 .carrosel-filmes {
     margin-top: 5px;
+}
+
+article {
+    background-color: var(--cinza);
+}
+
+section {
+    background-color: var(--preto);
+}
+
+footer {
+    padding: 20px;
+    padding-top: 20px;
+    background-color: var(--vermelho);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+footer .top {
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+footer a:hover {
+    color: var(--preto);
+}
+
+footer div .top1 {
+    border: 1px;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+
+footer div .topo {
+    border: 1px;
+    border-radius: 5px;
+    border-color: var(--preto);
+    background-color: rgba(0,0,0,.50);
+    width: 60px;
+    height: 30px;
+    align-items: center;
+    padding: 5px;
+}
+
+footer div .topo:hover {
+    border: 3px;
+    border-color: aqua;
+    background-color: var(--cinza);
 }
