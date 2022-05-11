@@ -1,6 +1,6 @@
 :root {
     --vermelho: #E50914;
-    --preto: #141414;
+    --preto: #1b1919;
     --cinza: #AAA;
 }
 
@@ -15,7 +15,31 @@ body {
     font-family: 'Arial', Times, serif;
     color: white;
     background-color: var(--preto);
+    
 }
+
+aside {
+    padding-top: 15px;
+    height: 5vh;
+    width: 100%;
+    background-color: var(--preto);
+    text-align: center;
+    flex-direction: row;
+}
+
+aside i {
+    margin-left: 10px;
+}
+
+header {
+    position: unset;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
 header .container {
     display: flex;
     justify-content: space-between;
@@ -41,6 +65,7 @@ header nav a:hover {
 
 /*Elemntos Filmes*/
 .filme-principal{
+    position: unset;
     background-color: #AAA;
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/clonenetflix/img/houseofcards.jpg');
@@ -104,7 +129,12 @@ header nav a:hover {
 }
 
 .carrosel-filmes {
+    position: relative;
     margin-top: 5px;
+}
+
+main {
+    padding-top: 60px;
 }
 
 article {
