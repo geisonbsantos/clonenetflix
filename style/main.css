@@ -18,16 +18,40 @@ body {
 }
 
 aside {
-    padding-top: 10px;
-    height: 20vh;
+    align-items: center;
+    height: 6vh;
     width: 100%;
     background-color: var(--cinza);
     text-align: center;
     flex-direction: row;
 }
 
-aside i {
+aside div a {
+    text-decoration: none;
+    color: #fff;
+}
+aside div a:hover {
+    color: rgb(19, 18, 18);
+}
+
+aside div a i {
+    width: 60px;
+    height: 60px;
+}
+
+aside .social{
+    padding-top: 10px;
+    height: 840px;
+    width: 100%;
+    background-color: var(--cinza);
+    text-align: center;
+    flex-direction: row;
+}
+
+aside div i {
     margin-left: 10px;
+    width: 80px;
+    height: 80px;
 }
 
 header {
@@ -77,7 +101,7 @@ header nav a:hover {
 }
 
 .filme-principal .titulo {
-    margin-top: 15%;
+    margin-top: 10%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
@@ -115,7 +139,13 @@ header nav a:hover {
 }
 
 .filme-principal .container {
-    width: 60%;
+    width: 50%;
+}
+
+.filme-principal .container:hover {
+    width: 100%;
+    font-size: 30px;
+    transition: background-color 0.3s ease-in-out;;
 }
 
 .box-filme {
@@ -130,7 +160,6 @@ header nav a:hover {
 }
 
 main {
-    padding-top: 60px;
     text-align: left;
 }
 
