@@ -8,6 +8,10 @@
         margin-top: 5px;
         width: 200px;
     }
+
+    aside .social{
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width: 1000px) {

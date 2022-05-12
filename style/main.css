@@ -32,26 +32,19 @@ aside div a {
 }
 aside div a:hover {
     color: rgb(19, 18, 18);
-}
-
-aside div a i {
-    width: 60px;
-    height: 60px;
+    transition: 0.8s ease-in-out;
 }
 
 aside .social{
-    padding-top: 10px;
-    height: 840px;
+    padding: 15px;
+    align-items: center;
     width: 100%;
-    background-color: var(--cinza);
-    text-align: center;
     flex-direction: row;
 }
 
 aside div i {
-    margin-left: 10px;
-    width: 80px;
-    height: 80px;
+    margin-left: 45px;
+    padding-right: 15px;
 }
 
 header {
@@ -83,6 +76,7 @@ header nav a {
 
 header nav a:hover {
     color: #fff;
+    transition: 0.8s ease-in-out;
 }
 
 /*Elemntos Filmes*/
@@ -128,6 +122,7 @@ header nav a:hover {
 .botao:hover {
     background-color: var(--cinza);
     color: var(--preto);
+    transition: 0.8s ease-in-out;
 }
 
 .botao i {
@@ -139,13 +134,7 @@ header nav a:hover {
 }
 
 .filme-principal .container {
-    width: 50%;
-}
-
-.filme-principal .container:hover {
-    width: 100%;
-    font-size: 30px;
-    transition: background-color 0.3s ease-in-out;;
+    width: 70%;
 }
 
 .box-filme {
