@@ -94,6 +94,16 @@ header nav a:hover {
 
 }
 
+.fixoNoTopo {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.fixoNoTopo + .filme-principal + main {
+    padding: 60px;
+}
+
 .filme-principal .titulo {
     margin-top: 10%;
     font-size: 40px;

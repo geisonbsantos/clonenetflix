@@ -14,3 +14,18 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+const header=document.getElementsByTagName("header")[0];
+const topoHeader=header.offsetTop;
+
+window.onscroll=function() {
+    fixarMenuNoTopo();
+}
+
+function fixarMenuNoTopo() {
+    if(window.pageYOffset >= topoHeader) {
+        header.classList.add("fixoNoTopo");
+    }else{
+        header.classList.remove("fixoNoTopo");
+    }
+}
