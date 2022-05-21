@@ -52,7 +52,7 @@ header {
     top: 0;
     width: 100%;
     background-color: black;
-    overflow: hidden;
+
 }
 
 header .container {
@@ -98,6 +98,7 @@ header nav a:hover {
     position: fixed;
     top: 0px;
     width: 100%;
+    z-index: 999;
 }
 
 .fixoNoTopo + .filme-principal + main {
